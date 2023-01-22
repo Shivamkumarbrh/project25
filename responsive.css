@@ -1,0 +1,89 @@
+@media screen and (max-width:992px) {
+    .ImgContent{
+        width: 60%;
+        top: 20vh;
+    }
+    .aboutContent{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .aboutImg{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .detail p{
+       font-size: 16px;
+    }
+}
+@media screen and (max-width:600px) {
+    .navbarContainer {
+        text-align: center;
+        display: block;
+    }
+    .navbarContainer a{
+        display: block;
+    }
+    .ImgContent{
+        top: 5vh;
+        width: 90%;
+        margin: 0px auto;
+    }
+    .Img{
+        padding: 0px 10px;
+        position: relative;
+        top: 0px;
+        height: 500px;
+        box-sizing: border-box;
+    }
+    .Img img{
+        width: 100%;
+        object-fit: cover;
+        height: 500px;
+    }
+    .box{
+        width: 100%;
+        box-sizing: border-box;
+    } 
+    .box p{
+        margin-top: 5px;
+    }
+    .box1{
+        width:100%;
+        box-sizing: border-box;
+        padding: 0px 15px 0px 0px;
+    }
+    .box2{
+        width:100%;
+        box-sizing: border-box;
+        padding: 0px 15px 0px 0px;
+    }
+    #box3{
+        width: 100%;
+    }
+    .roomType{
+        width: 96%;
+    }
+    .detail p{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 3px 15px;
+    }
+    .imgBox50{
+        width: 100%;
+        /* margin: 0px auto; */
+        padding: 8px;
+        box-sizing: border-box;
+    }
+    .imgBox50 img{
+        width: 99%;
+        margin: 0px auto;
+        box-sizing: border-box;
+    }
+    .imgBox25{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .imgBox25 img{
+        width: 96%;
+    }
+}

@@ -1,0 +1,91 @@
+.offerfirst{
+    margin: 50px 0px;
+    padding: 15px 10px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    box-sizing: border-box;
+}
+.offerfirst:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.offerfirst h1{
+    margin: 5px 10px;
+    padding: 20px 0px;
+}
+.offerfirst p{
+  padding: 0px 10px 10px 10px;
+}
+.offerfirst label{
+    padding: 0px 10px;
+}
+.offerfirst input{
+    width: 98%;
+    margin: 2px 10px;
+    padding: 12px 15px;
+    border: none;
+    box-sizing: border-box;
+}
+.offerfirst input:focus{
+    outline: 1px solid blue;
+}
+.offerfirst button{
+    margin: 20px 10px;
+    padding: 12px 15px;
+    border: none;
+    background-color: rgb(204, 11, 11);
+    color: white;
+}
+.contact{
+    padding: 20px 10px;
+}
+.contact i{
+    padding-right: 15px;
+    color:  #f44336;
+}
+#first{
+    padding: 10px 0px;
+    font-size: 30px;
+}
+#second{
+    padding: 10px 0px;
+} 
+p{
+    padding: 3px 0px;
+}
+.contact input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    margin: 5px 0px;
+}
+.contact button{
+    padding: 12px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 5px 0px;
+}
+.contact button:hover{
+    background-color: #aaa;
+    cursor: pointer;
+    color: black;
+}
+footer{
+    padding: 50px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer p:first-child{
+    font-size: 20px;
+}
+#footerSecond{
+    margin: 15px 0px;
+    font-size: 20px;
+}
+#footerSecond a{
+    text-decoration: none;
+    color: white;
+}
