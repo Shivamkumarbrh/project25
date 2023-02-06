@@ -1,10 +1,12 @@
 *{
     margin: 0px;
+    box-sizing: border-box;
     font-family: "Raleway", Arial, Helvetica, sans-serif;
     padding: 0px;
 }
 .container{
     background-color: #ddd;
+    box-sizing: border-box;
 }
 .navbarContainer{
     display: flex;
@@ -16,6 +18,7 @@
 .navbarContainer a{
     display:inline-block;
     text-decoration: none;
+    box-sizing: border-box;
     padding: 12px 20px;
     font-size: 18px;
     color: black;
@@ -42,7 +45,7 @@
     background-color: #aaa;
 }
 .Img{
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     position: relative;
     top: 0px;
     height: 700px;
@@ -173,9 +176,14 @@ input:focus{
     border: none;
     background-color: black;
     color: white;
+    cursor: pointer;
+}
+#box3 button:hover{
+    background-color: #aaa;
 }
 .roomOption{
     /* border:1px solid; */
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 10px;
