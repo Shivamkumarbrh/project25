@@ -15,14 +15,14 @@
     <div class="container">
     <div class="navbarContainer">
         <div class="navbarLeft">
-            <a href="#" id="navbarFirst"><i class="fa-solid fa-bed"></i>Logo</a><a href="#">Room</a><a href="#">About</a><a href="#">Contact</a>
+            <a href="#" id="navbarFirst"><i class="fa-solid fa-bed"></i>Logo</a><a href="#roomSection">Room</a><a href="#aboutSection">About</a><a href="#contactSection">Contact</a>
         </div>
         <div class="navbarRight">
-            <a href="#">Book Now</a>
+            <a href="#contactSection">Book Now</a>
         </div>
     </div>
     <div class="Img">
-        <img src="/img/appbg3.jpg" alt="">
+        <img src="https://cdn.pixabay.com/photo/2019/10/08/04/16/dragon-palace-hotel-4534092_960_720.jpg" alt="">
         <div class="ImgContent">
             <p id="ImgFirst"><i class="fa-solid fa-bed"></i>Hostel Name</p>
             <div class="box">
@@ -35,15 +35,16 @@
             </div>
             <div class="box">
             <p><i class="fa-solid fa-person"></i>Adults</p>
-            <input type="number" min="1" max="6" placeholder="1">
+            <input type="number" min="1" max="6" value="1">
         </div>
         <div class="box">
             <p><i class="fa-solid fa-child"></i>Kids</p>
-            <input type="number" min="0" placeholder="0">
+            <input type="number" min="0" value="0">
         </div>
         <button id="imgContentbtn"><i class="fa-solid fa-magnifying-glass"></i>Sreach availibility</button>
     </div>
 </div>
+<section id="roomSection">
         <div class="room">
             <p id="roomFirst">Rooms</p>
             <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
@@ -57,21 +58,22 @@
             </div>
             <div class="box2">
                 <p><i class="fa-solid fa-person"></i>Adults</p>
-                <input type="number" min="1">
+                <input type="number" min="1" value="1">
             </div>
             <div class="box2">
                 <p><i class="fa-solid fa-child"></i>Kids</p>
-                <input type="number" min="0">
+                <input type="number" min="0" value="0">
             </div>   
             <div id="box3">     
             <p><i class="fa-solid fa-magnifying-glass"></i>Search</p>
             <button id="imgContentbtn2">Search</button>
         </div>
     </div>
+    
         <div class="roomOption">
             <div class="roomType">
             <div class="roomImg">
-                <img src="/img/first.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_960_720.jpg" alt="">
             </div>
             <div class="roomContent">
             <p id="roomTypeFirst">Single Room</p>
@@ -84,7 +86,8 @@
     </div>
         <div class="roomType">
             <div class="roomImg">
-                <img src="/img/fifth.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2018/06/14/21/15/bedroom-3475656_960_720.jpg" alt="">
+                
             </div>
             <div class="roomContent">
             <p id="roomTypeFirst">Double Room</p>
@@ -97,7 +100,7 @@
         </div>
         <div class="roomType">
             <div class="roomImg">
-                <img src="/img/eight.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_960_720.jpg" alt="">
             </div>
             <div class="roomContent">
             <p id="roomTypeFirst">Deluxe Room</p>
@@ -109,6 +112,8 @@
         </div>
     </div>
         </div>
+    </section>
+        <section id="aboutSection">
         <div class="about">
             <div class="aboutContent">
                 <p id="aboutFirst">About</p>
@@ -116,9 +121,10 @@
                 <p>We accept:<i class="fa-solid fa-credit-card"></i><i class="fa-brands fa-cc-visa"></i><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-paypal"></i></p>
             </div>
                 <div class="aboutImg">
-                    <img src="/img/bg3.jpg" alt="">
+                    <img src="https://cdn.pixabay.com/photo/2020/05/09/09/13/house-5148865_960_720.jpg" alt="">
                 </div>
         </div>
+    </section>
         <div class="detail">
             <p><i class="fa-solid fa-location-pin"></i>House No - 0000 Lucknow, IN</p>
             <p><i class="fa-solid fa-phone"></i>Phone - 7500000000</p>
@@ -131,13 +137,13 @@
             <p id="ourHotelFirst">Our Hotel</p>
             <p>You can find our hotels anywhere in the world:</p>
             <div class="imgBox50">
-                <img src="/img/taj.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2016/03/28/09/34/bedroom-1285156_960_720.jpg" alt="">
             </div>
             <div class="imgBox25">
-                <img src="/img/sixth.jpg" alt="">
-                <img src="/img/second.jpg" alt="">
-                <img src="/img/seven.jpg" alt="">
-                <img src="/img/third.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2019/08/19/13/58/bed-4416515_960_720.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_960_720.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2016/10/18/09/02/hotel-1749602_960_720.jpg" alt="">
+                <img src="https://cdn.pixabay.com/photo/2018/06/14/21/15/bedroom-3475656_960_720.jpg" alt="">
             </div>
 
         </div>
@@ -148,6 +154,7 @@
             <input type="email" id="email" placeholder="Your Email address">
             <button>Subscribe</button>
         </div>
+        <section id="contactSection">
         <div class="contact">
             <p id="first">Contact</p>
             <p id="second">If you have any questions, do not hesitate to ask them.</p>
@@ -159,15 +166,17 @@
             <input type="text" placeholder="Message">
             <button>Send Message</button>
         </div>
+    </section>
     </div>
 </div>
     <footer>
         <p>Find us on</p>
-        <p id="footerSecond"> <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" id="footerFirstLast"><i class="fa-brands fa-linkedin-in"></i></a></p>
+        <p id="footerSecond"> 
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></a>  
         <p>Developed by codEBYKumar</p>
     </footer>
 </body>
